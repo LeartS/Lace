@@ -43,7 +43,7 @@ defmodule Lace.Map do
       iex> Lace.Map.move_new(%{primary: 10, secondary: 20}, :secondary, :primary)
       %{primary: 10, secondary: 20}
   """
-  @spec move(map(), Map.key(), Map.value()) :: map()
+  @spec move_new(map(), Map.key(), Map.value()) :: map()
   def move_new(map, old_key, new_key) do
     case Map.has_key?(map, new_key) do
       true -> map
