@@ -1,7 +1,7 @@
 defmodule Lace.MixProject do
   use Mix.Project
 
-  @version "0.0.1"
+  @version "0.0.2"
   @repo_url "https://github.com/LeartS/lace"
 
   def project do
