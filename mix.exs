@@ -1,7 +1,7 @@
 defmodule Lace.MixProject do
   use Mix.Project
 
-  @version "0.0.2"
+  @version "0.0.3"
   @repo_url "https://github.com/LeartS/lace"
 
   def project do
@@ -53,8 +53,9 @@ defmodule Lace.MixProject do
 
   defp docs() do
     [
-      source_ref: "main",
+      main: "readme",
       extras: [
+        "README.md": [title: "README"],
         LICENSE: [title: "License"]
       ]
     ]

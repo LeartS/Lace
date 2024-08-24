@@ -1,5 +1,10 @@
 # Changelog
 
+## [0.0.3] - 2024-08-24
+
+### Improved
+- Expanded README and added it to the generated documentation.
+
 ## [0.0.2] - 2024-08-06
 ### Added
 - `Lace.Map` module with some initial map-related functions:
